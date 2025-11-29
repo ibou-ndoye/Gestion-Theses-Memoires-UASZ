@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>ValidationService</title>
+    <title>interface Bibliothecaire</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>ValidationService</h1>
+      <h1>interface Bibliothecaire</h1>
 
       <!-- Type and Stereotype -->
 
@@ -46,7 +46,7 @@
           <span class="label label-info"><a href='0029397b98738b80d94253b05d78242e.html'><span class='node-icon staruml-icon icon-UMLInteraction'></span>Interaction1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='a801dc31cc32be4a4d5862e1f621cd99.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>ValidationService</a></span>
+          <span class="label label-info"><a href='a801dc31cc32be4a4d5862e1f621cd99.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>interface Bibliothecaire</a></span>
         
       </section>
 
@@ -215,7 +215,7 @@
     
     <tr>
         <td>name</td>
-        <td>ValidationService</td>
+        <td>interface Bibliothecaire</td>
     </tr>
     
     
@@ -305,13 +305,19 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='7cb6835caab28aefb5c067037cdc2bca.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validerDocument (ValidationController→ValidationService)</a></li>
+        <li><a href='4bf3112265d54347122715af26d51f3a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>afficher theses ou memoires (Bibliothecaire→interface Bibliothecaire)</a></li>
         
-        <li><a href='7fe688adb32ab33746cd9e74e4246c22.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>updateStatut (ValidationService→TheseDAO)</a></li>
+        <li><a href='e472be3c91bbb95f0067cdd44fb5a02d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>traitement (interface Bibliothecaire→system)</a></li>
         
-        <li><a href='dda341848c6908c48c042a230cadf421.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>return OK (TheseDAO→ValidationService)</a></li>
+        <li><a href='e671ebc82137b1fbcd443c7c4769efde.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>afficherMessage (system→interface Bibliothecaire)</a></li>
         
-        <li><a href='5c507f109171cef795a52a5a7fb412ca.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validationOK (ValidationService→ValidationController)</a></li>
+        <li><a href='7fe688adb32ab33746cd9e74e4246c22.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>updateStatut (interface Bibliothecaire→TheseDAO)</a></li>
+        
+        <li><a href='dda341848c6908c48c042a230cadf421.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>return OK (TheseDAO→interface Bibliothecaire)</a></li>
+        
+        <li><a href='7cb6835caab28aefb5c067037cdc2bca.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validerDocument (ValidationController→interface Bibliothecaire)</a></li>
+        
+        <li><a href='5c507f109171cef795a52a5a7fb412ca.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>validationOK (interface Bibliothecaire→ValidationController)</a></li>
         
     </ul>
 </section>

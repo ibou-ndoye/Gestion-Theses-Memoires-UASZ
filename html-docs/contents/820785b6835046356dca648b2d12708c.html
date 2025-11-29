@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Archiver un document</title>
+    <title>Gestion des encadrants</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Archiver un document</h1>
+      <h1>Gestion des encadrants</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='490060d93a240ca1b4ccb4037ae5ee2e.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='820785b6835046356dca648b2d12708c.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Archiver un document</a></span>
+          <span class="label label-info"><a href='820785b6835046356dca648b2d12708c.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Gestion des encadrants</a></span>
         
       </section>
 
@@ -85,6 +85,19 @@
 
         
         
+<section class="element-list">
+    <h3>Specialized Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='8e3b0088b925271a2b856c1da8378bd1.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>ajouter encadrant</a></li>
+        
+        <li><a href='b72631fc86ee45d6bf3678e5d8ed7273.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>modifier encadrant</a></li>
+        
+        <li><a href='54c3ce3521dde515290d5674228e3707.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>supprimer encadrant</a></li>
+        
+    </ul>
+</section>
+
 
 
         
@@ -125,7 +138,9 @@
     <h3>Actors</h3>
     <ul class="nav nav-list">
         
-        <li><a href='cad2ad557f1d567cbde677cb6ba46523.html'><span class='node-icon staruml-icon icon-UMLActor'></span>gestionnaire</a></li>
+        <li><a href='cad2ad557f1d567cbde677cb6ba46523.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Aide_bubliothecaire</a></li>
+        
+        <li><a href='cad2ad557f1d567cbde677cb6ba46523.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Aide_bubliothecaire</a></li>
         
     </ul>
 </section>
@@ -253,7 +268,7 @@
     
     <tr>
         <td>name</td>
-        <td>Archiver un document</td>
+        <td>Gestion des encadrants</td>
     </tr>
     
     
@@ -347,6 +362,15 @@
 
         
         
+<section class="element-list">
+    <h3>Dependencies</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='c1ec11d89852de5674485775560a6465.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>authentification</a></li>
+        
+    </ul>
+</section>
+
 
 
         
@@ -362,7 +386,17 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='69498f7e7bb4187f1628c1cceababb98.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(gestionnaire—Archiver un document)</a></li>
+        <li><a href='69498f7e7bb4187f1628c1cceababb98.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Aide_bubliothecaire—Gestion des encadrants)</a></li>
+        
+        <li><a href='39d45051d3c3a0b8c468607d46b93484.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Aide_bubliothecaire—Gestion des encadrants)</a></li>
+        
+        <li><a href='d060de2c4ff7d19a45be7f6600827d94.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestion des encadrants→authentification)</a></li>
+        
+        <li><a href='65fa75b7ddbfc701ca8f3b395b05f292.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(ajouter encadrant→Gestion des encadrants)</a></li>
+        
+        <li><a href='5423c0d288b0cae2f318c3da744f7d60.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(modifier encadrant→Gestion des encadrants)</a></li>
+        
+        <li><a href='1964687db9fb2a6bc82ac6841b0a3c85.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(supprimer encadrant→Gestion des encadrants)</a></li>
         
     </ul>
 </section>
@@ -373,6 +407,15 @@
 
       
       
+<section class="element-list">
+    <h3>Owned Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='d060de2c4ff7d19a45be7f6600827d94.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(Gestion des encadrants→authentification)</a></li>
+        
+    </ul>
+</section>
+
 
 
     </div>

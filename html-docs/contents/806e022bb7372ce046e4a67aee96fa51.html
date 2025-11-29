@@ -170,6 +170,17 @@
       
         
         
+<section class="element-list">
+    <h3>Fragments</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='d809711aec673e715542df42ab9cf3b0.html'><span class='node-icon staruml-icon icon-UMLInteractionUse'></span>InteractionUse1</a></li>
+        
+        <li><a href='bbbb2d5eeb0fe1daf3293f3a44e85eb1.html'><span class='node-icon staruml-icon icon-UMLCombinedFragment'></span>CombinedFragment1</a></li>
+        
+    </ul>
+</section>
+
 
 
         
@@ -178,7 +189,7 @@
     <h3>Participants</h3>
     <ul class="nav nav-list">
         
-        <li><a href='86d20f721d200993ae9b2117298ec3be.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Gestionnaire</a></li>
+        <li><a href='86d20f721d200993ae9b2117298ec3be.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>utilisateurs</a></li>
         
         <li><a href='3227a5d980586b96820638bf4f64f457.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>UI_Recherche</a></li>
         
@@ -192,7 +203,7 @@
         
         <li><a href='337534c3a38cea77336559b5c7aa9654.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Lifeline7</a></li>
         
-        <li><a href='5bd309ad55d61ec2e19a44c00fbd851a.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Database</a></li>
+        <li><a href='5bd309ad55d61ec2e19a44c00fbd851a.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>systeme</a></li>
         
     </ul>
 </section>
@@ -205,23 +216,27 @@
     <h3>Messages</h3>
     <ul class="nav nav-list">
         
-        <li><a href='93e60e81b5fe4e4b925353e6f003a2ad.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>entrerCriteres (Gestionnaire→UI_Recherche)</a></li>
+        <li><a href='93e60e81b5fe4e4b925353e6f003a2ad.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>entrerCriteres (utilisateurs→UI_Recherche)</a></li>
         
-        <li><a href='700f09a687ef0e90aa39a54c3b638f69.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>rechercher (UI_Recherche→RechercheController)</a></li>
+        <li><a href='700f09a687ef0e90aa39a54c3b638f69.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>rechercher (UI_Recherche→systeme)</a></li>
         
-        <li><a href='0d32d02aabd41fec51dbd030a205579a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>filtrer (RechercheController→RechercheService)</a></li>
+        <li><a href='c8ed3542a2fd31485b43ed4a31f1d2ff.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>recherche (systeme→systeme)</a></li>
+        
+        <li><a href='e5bb45cf0982cc306d5f165c64ad0b32.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>affichage document (systeme→UI_Recherche)</a></li>
+        
+        <li><a href='bca7ccbdfeefbf27b4db1f343cccc392.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>message erreur (systeme→UI_Recherche)</a></li>
+        
+        <li><a href='25b0e0be83db10ac8c31d4f7117f4795.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>return listeDocuments (RechercheService→RechercheController)</a></li>
+        
+        <li><a href='0d32d02aabd41fec51dbd030a205579a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>filtrer (RechercheController→systeme)</a></li>
         
         <li><a href='ee56a4b358eeffc85ef894a68ddc2909.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>search (RechercheService→TheseDAO)</a></li>
         
-        <li><a href='f112725205fabeb9cb270b83ce55087e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>SELECT * FROM these WHERE ... (TheseDAO→Database)</a></li>
+        <li><a href='f112725205fabeb9cb270b83ce55087e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>SELECT * FROM these WHERE ... (TheseDAO→systeme)</a></li>
         
-        <li><a href='c8ed3542a2fd31485b43ed4a31f1d2ff.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message1 (Database→Database)</a></li>
-        
-        <li><a href='0c71f7e40f8bd9bc25baad2ec3c36d00.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>listeDocuments (Database→TheseDAO)</a></li>
+        <li><a href='0c71f7e40f8bd9bc25baad2ec3c36d00.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>listeDocuments (systeme→TheseDAO)</a></li>
         
         <li><a href='76234fa783f37b5c1a85e0f527b97f8a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>return listeDocuments (TheseDAO→RechercheService)</a></li>
-        
-        <li><a href='25b0e0be83db10ac8c31d4f7117f4795.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>return listeDocuments (RechercheService→RechercheController)</a></li>
         
     </ul>
 </section>

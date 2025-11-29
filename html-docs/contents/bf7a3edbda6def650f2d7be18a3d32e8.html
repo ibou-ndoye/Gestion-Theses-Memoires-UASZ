@@ -187,7 +187,7 @@
     <h3>Participants</h3>
     <ul class="nav nav-list">
         
-        <li><a href='08dd4955a0be3fb79bcf1fbb9ef2acc8.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Gestionnaire</a></li>
+        <li><a href='08dd4955a0be3fb79bcf1fbb9ef2acc8.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>interface aide bibliothecaire</a></li>
         
         <li><a href='4b2a7fd3491847ba8fd7d01fa62caf31.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>gestionnaire</a></li>
         
@@ -197,7 +197,7 @@
         
         <li><a href='623b00f64a7d214553109302554d3a0e.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Lifeline5</a></li>
         
-        <li><a href='d9e1a72a8c0be869d12edf0b9839a7cd.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>DepotController</a></li>
+        <li><a href='d9e1a72a8c0be869d12edf0b9839a7cd.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Systeme</a></li>
         
         <li><a href='096fd5ca8d3aeaa079e0789073872b47.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Lifeline7</a></li>
         
@@ -217,6 +217,8 @@
         
         <li><a href='3cd8def2e9a228c2b3e72836404823f5.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Lifeline15</a></li>
         
+        <li><a href='077a75a9d511b3cb2a5a6504112f450b.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>aide bibliothecaire</a></li>
+        
     </ul>
 </section>
 
@@ -228,11 +230,29 @@
     <h3>Messages</h3>
     <ul class="nav nav-list">
         
-        <li><a href='81905ed851b247591d0986c66202e32d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>remplirFormulaire (Gestionnaire→Interface depot)</a></li>
+        <li><a href='1f446db2bce5e38d371aba70c3fc6569.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>remplirFormulaire (aide bibliothecaire→interface aide bibliothecaire)</a></li>
         
-        <li><a href='34e6a4aa6be035eed57c198ceb5a35d4.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>deposerThese (Interface depot→DepotController)</a></li>
+        <li><a href='370eb027d938bb6768465d74edacdad2.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>deposerThese (interface aide bibliothecaire→Systeme)</a></li>
         
-        <li><a href='6921244979171f48a2a4136cb78100b6.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>enregistrerThese (DepotController→DepotService)</a></li>
+        <li><a href='c932531318b2aa02a45e87a81f6205cc.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>verification et enregistrement (Systeme→Systeme)</a></li>
+        
+        <li><a href='13a9c9894e17248488262cfff5d0d9b9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>afficherMessage (Systeme→interface aide bibliothecaire)</a></li>
+        
+        <li><a href='27d042d83939dbd3255f61eef2864b6c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>afficherErreur (Systeme→interface aide bibliothecaire)</a></li>
+        
+        <li><a href='ae97a639c6031d534264a27663f62475.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message3 (interface aide bibliothecaire→interface aide bibliothecaire)</a></li>
+        
+        <li><a href='81905ed851b247591d0986c66202e32d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>remplirFormulaire (interface aide bibliothecaire→Interface depot)</a></li>
+        
+        <li><a href='34e6a4aa6be035eed57c198ceb5a35d4.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>deposerThese (Interface depot→Systeme)</a></li>
+        
+        <li><a href='439522cdfe0dae90781e3c64def210e9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>afficherMessage (Systeme→Interface depot)</a></li>
+        
+        <li><a href='cca55b2b9db72b9486734f03a325b277.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>afficherErreur (Systeme→Interface depot)</a></li>
+        
+        <li><a href='6921244979171f48a2a4136cb78100b6.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>enregistrerThese (Systeme→DepotService)</a></li>
+        
+        <li><a href='91dd46070be91f574392e5b57a800d1e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>return success (DepotService→Systeme)</a></li>
         
         <li><a href='6c7f8f69b13741748b852c2a4e95653d.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>save (DepotService→TheseDAO)</a></li>
         
@@ -243,12 +263,6 @@
         <li><a href='42bffd1e276d24019b1e8191fe77e798.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>OK (BD→TheseDAO)</a></li>
         
         <li><a href='3ccfeb2af5836f456dfed9c5c9c41532.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>return idThese (TheseDAO→DepotService)</a></li>
-        
-        <li><a href='91dd46070be91f574392e5b57a800d1e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>return success (DepotService→DepotController)</a></li>
-        
-        <li><a href='439522cdfe0dae90781e3c64def210e9.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>afficherMessage (DepotController→Interface depot)</a></li>
-        
-        <li><a href='cca55b2b9db72b9486734f03a325b277.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>afficherErreur (DepotController→Interface depot)</a></li>
         
         <li><a href='2a6a4a7e24588e8aaf2fe93d3f8d0a92.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message1 (BD→BD)</a></li>
         

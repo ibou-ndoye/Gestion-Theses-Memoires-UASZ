@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>ajouter une these et memoire</title>
+    <title>gestion des thèses et des mémoires</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>ajouter une these et memoire</h1>
+      <h1>gestion des thèses et des mémoires</h1>
 
       <!-- Type and Stereotype -->
 
@@ -43,7 +43,7 @@
           <span class="label label-info"><a href='490060d93a240ca1b4ccb4037ae5ee2e.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Model1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='63066e9333fb2d2c684e631fca482bf6.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>ajouter une these et memoire</a></span>
+          <span class="label label-info"><a href='63066e9333fb2d2c684e631fca482bf6.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>gestion des thèses et des mémoires</a></span>
         
       </section>
 
@@ -85,6 +85,21 @@
 
         
         
+<section class="element-list">
+    <h3>Specialized Elements</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='bbf749252ebd9d6c2241d4b972614448.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>Modifier un document.</a></li>
+        
+        <li><a href='f32b0b962bcf99a845eb85cbd36e85f9.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>télécharger ou consulter un fichier</a></li>
+        
+        <li><a href='ea8bf86f164692984087f47248a9eb2e.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>rechercher un document</a></li>
+        
+        <li><a href='5569ac4b1009d2d0859c29ee3afc61af.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>ajouter des thèses et des mémoires</a></li>
+        
+    </ul>
+</section>
+
 
 
         
@@ -125,9 +140,11 @@
     <h3>Actors</h3>
     <ul class="nav nav-list">
         
-        <li><a href='cad2ad557f1d567cbde677cb6ba46523.html'><span class='node-icon staruml-icon icon-UMLActor'></span>gestionnaire</a></li>
+        <li><a href='cad2ad557f1d567cbde677cb6ba46523.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Aide_bubliothecaire</a></li>
         
-        <li><a href='66b4a9ca7eaa483786792beaf3baf2d8.html'><span class='node-icon staruml-icon icon-UMLActor'></span>administrateur</a></li>
+        <li><a href='cad2ad557f1d567cbde677cb6ba46523.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Aide_bubliothecaire</a></li>
+        
+        <li><a href='66b4a9ca7eaa483786792beaf3baf2d8.html'><span class='node-icon staruml-icon icon-UMLActor'></span>Administrateur</a></li>
         
         <li><a href='2b4e90fedc5222bbb266cc936ffefed8.html'><span class='node-icon staruml-icon icon-UMLActor'></span>bd</a></li>
         
@@ -257,7 +274,7 @@
     
     <tr>
         <td>name</td>
-        <td>ajouter une these et memoire</td>
+        <td>gestion des thèses et des mémoires</td>
     </tr>
     
     
@@ -351,6 +368,15 @@
 
         
         
+<section class="element-list">
+    <h3>Dependencies</h3>
+    <ul class="nav nav-list">
+        
+        <li><a href='c1ec11d89852de5674485775560a6465.html'><span class='node-icon staruml-icon icon-UMLUseCase'></span>authentification</a></li>
+        
+    </ul>
+</section>
+
 
 
         
@@ -366,11 +392,23 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='543251907b22421450138d61e3d4ef50.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(gestionnaire—ajouter une these et memoire)</a></li>
+        <li><a href='543251907b22421450138d61e3d4ef50.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Aide_bubliothecaire—gestion des thèses et des mémoires)</a></li>
         
-        <li><a href='094151234f87d7ecd1a39328997fc483.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(administrateur—ajouter une these et memoire)</a></li>
+        <li><a href='84b159f550c016d6e773743a1136517d.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Aide_bubliothecaire—gestion des thèses et des mémoires)</a></li>
         
-        <li><a href='6ba87cc067992a2d975f8591dfe7892c.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(ajouter une these et memoire—bd)</a></li>
+        <li><a href='094151234f87d7ecd1a39328997fc483.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Administrateur—gestion des thèses et des mémoires)</a></li>
+        
+        <li><a href='6ba87cc067992a2d975f8591dfe7892c.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(gestion des thèses et des mémoires—bd)</a></li>
+        
+        <li><a href='5e01a87901ab447d1e5fc0651f105a68.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(gestion des thèses et des mémoires→authentification)</a></li>
+        
+        <li><a href='dac20176c518706fdc55f01366fc856c.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(Modifier un document.→gestion des thèses et des mémoires)</a></li>
+        
+        <li><a href='75763cd87e6e44eed503667c014b6029.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(télécharger ou consulter un fichier→gestion des thèses et des mémoires)</a></li>
+        
+        <li><a href='a50fad07313402303b90a73a4fb3f441.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(rechercher un document→gestion des thèses et des mémoires)</a></li>
+        
+        <li><a href='7a197f9323fc9ee0498c7a730a79b1d0.html'><span class='node-icon staruml-icon icon-UMLGeneralization'></span>(ajouter des thèses et des mémoires→gestion des thèses et des mémoires)</a></li>
         
     </ul>
 </section>
@@ -385,7 +423,9 @@
     <h3>Owned Elements</h3>
     <ul class="nav nav-list">
         
-        <li><a href='6ba87cc067992a2d975f8591dfe7892c.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(ajouter une these et memoire—bd)</a></li>
+        <li><a href='6ba87cc067992a2d975f8591dfe7892c.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(gestion des thèses et des mémoires—bd)</a></li>
+        
+        <li><a href='5e01a87901ab447d1e5fc0651f105a68.html'><span class='node-icon staruml-icon icon-UMLDependency'></span>(gestion des thèses et des mémoires→authentification)</a></li>
         
     </ul>
 </section>

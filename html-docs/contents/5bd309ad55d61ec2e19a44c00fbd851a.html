@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Database</title>
+    <title>systeme</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -18,7 +18,7 @@
 
       <!-- Name Title -->
 
-      <h1>Database</h1>
+      <h1>systeme</h1>
 
       <!-- Type and Stereotype -->
 
@@ -46,7 +46,7 @@
           <span class="label label-info"><a href='806e022bb7372ce046e4a67aee96fa51.html'><span class='node-icon staruml-icon icon-UMLInteraction'></span>Interaction1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='5bd309ad55d61ec2e19a44c00fbd851a.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Database</a></span>
+          <span class="label label-info"><a href='5bd309ad55d61ec2e19a44c00fbd851a.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>systeme</a></span>
         
       </section>
 
@@ -215,7 +215,7 @@
     
     <tr>
         <td>name</td>
-        <td>Database</td>
+        <td>systeme</td>
     </tr>
     
     
@@ -305,11 +305,19 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='f112725205fabeb9cb270b83ce55087e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>SELECT * FROM these WHERE ... (TheseDAO→Database)</a></li>
+        <li><a href='700f09a687ef0e90aa39a54c3b638f69.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>rechercher (UI_Recherche→systeme)</a></li>
         
-        <li><a href='c8ed3542a2fd31485b43ed4a31f1d2ff.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>Message1 (Database→Database)</a></li>
+        <li><a href='c8ed3542a2fd31485b43ed4a31f1d2ff.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>recherche (systeme→systeme)</a></li>
         
-        <li><a href='0c71f7e40f8bd9bc25baad2ec3c36d00.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>listeDocuments (Database→TheseDAO)</a></li>
+        <li><a href='e5bb45cf0982cc306d5f165c64ad0b32.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>affichage document (systeme→UI_Recherche)</a></li>
+        
+        <li><a href='bca7ccbdfeefbf27b4db1f343cccc392.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>message erreur (systeme→UI_Recherche)</a></li>
+        
+        <li><a href='0d32d02aabd41fec51dbd030a205579a.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>filtrer (RechercheController→systeme)</a></li>
+        
+        <li><a href='f112725205fabeb9cb270b83ce55087e.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>SELECT * FROM these WHERE ... (TheseDAO→systeme)</a></li>
+        
+        <li><a href='0c71f7e40f8bd9bc25baad2ec3c36d00.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>listeDocuments (systeme→TheseDAO)</a></li>
         
     </ul>
 </section>
